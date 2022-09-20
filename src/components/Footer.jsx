@@ -28,7 +28,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="md:w-1/4 w-3/6 flex flex-col pb-5">
+        <div className="md:w-1/4 w-3/6 flex flex-col py-5 m-auto">
           <div className="flex flex-row justify-around w-full">
             <div className="">
               <img src={phone} alt="icon-phone" />
