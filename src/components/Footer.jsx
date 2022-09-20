@@ -29,7 +29,7 @@ function Footer() {
         </div>
 
         <div className="md:w-1/4 w-3/6 flex flex-col py-5 m-auto">
-          <div className="flex flex-row justify-around w-full">
+          <div className="flex flex-row justify-around w-full items-center">
             <div className="">
               <img src={phone} alt="icon-phone" />
             </div>
@@ -37,7 +37,7 @@ function Footer() {
               <p>+1-543-123-4567</p>
             </div>
           </div>
-          <div className="flex flex-row justify-around w-full py-5">
+          <div className="flex flex-row justify-around w-full py-5 items-center">
             <div className="">
               <img src={email} alt="icon-email" />
             </div>
