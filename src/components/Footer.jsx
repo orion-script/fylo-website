@@ -15,7 +15,7 @@ function Footer() {
           <div className="w-3/6 md:pb-8 pl-8">
             <img src={logo} alt="icon-logo" className="w-full" />
           </div>
-          <div className="flex flex-row w-11/12 md:w-`3/6 py-5 m-auto">
+          <div className="flex flex-row w-11/12 md:w-3/6 py-5 m-auto">
             <div className="w-3/12">
               <img src={location} alt="icon-location" className="w-3/12" />
             </div>
@@ -28,7 +28,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="md:w-1/4 w-3/6 flex flex-col py-5 m-auto">
+        <div className="md:w-1/4 w-3/6 lg:w-1/6 flex flex-col py-5">
           <div className="flex flex-row justify-around w-full items-center">
             <div className="">
               <img src={phone} alt="icon-phone" />
@@ -78,7 +78,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="flex flex-row justify-center md:w-1/6 w-3/6 m-auto pt-8">
+        <div className="flex flex-row md:w-1/6 w-3/6 pt-8">
           <a href="https://">
             <FaFacebook className="text-5xl" />
           </a>
