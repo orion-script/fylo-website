@@ -21,7 +21,7 @@ function Productive() {
           collaboration. No email attachments required.
         </p>
         <div className="mt-6 md:my-2 flex flex-row text-sm border-b min-w-max w-10 py-1 lg:text-xl">
-          <a href="https://tailwindcss.com/docs/padding">See how fylo work</a>
+          <a href="#">See how fylo work</a>
           <img
             src={Arrow}
             alt="icon-arrow"
