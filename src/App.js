@@ -1,5 +1,4 @@
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Productive from "./components/Productive";
@@ -10,7 +9,7 @@ import Collection from "./components/Collection";
 
 function App() {
   return (
-    <Router>
+    <div>
       <Navbar />
       <Intro />
       <Collection />
@@ -18,7 +17,7 @@ function App() {
       <Gallery />
       <EarlyAccess />
       <Footer />
-    </Router>
+    </div>
   );
 }
 
